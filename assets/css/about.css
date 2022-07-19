@@ -33,14 +33,14 @@
     margin-block-start: 15px;
     margin-block-end: 15px;
     font-size: 1.2em;
-    text-align: center;
+    text-align: justify;
 }
 
 @media (max-width: 999px) {
-    /* .about-content img {
+    .about-content img {
         height: 100%;
         width: 80%;
-    } */
+    }
 
     .about-content {
         flex-direction: column;
@@ -56,5 +56,12 @@
     .about-content img {
         width: 250px;
         height: 290px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .about-content img {
+        height: 80%;
+        width: 75%;
     }
 }
