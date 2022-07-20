@@ -27,8 +27,10 @@
 }
 
 .container-contact input,
-.container-contact textarea {
+.container-contact textarea,
+.container-contact button {
   box-shadow: 0.2s;
+  background: #d3d3d3;
 }
 
 .container-contact input:focus,
@@ -37,12 +39,17 @@
 .container-contact textarea:focus {
   outline: none;
   border-color: #04044a;
-  box-shadow: 0 0 0 3px #04044a;
+  box-shadow: 0 0 0 3px #273297;
 }
 
 .container-contact button {
   margin-top: 10px;
   cursor: pointer;
+}
+
+.container-contact button:hover {
+  color: #fff;
+  background: #273297;
 }
 
 .container-contact textarea {

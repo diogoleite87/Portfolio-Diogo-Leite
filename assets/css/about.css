@@ -33,6 +33,7 @@
     margin-block-start: 15px;
     margin-block-end: 15px;
     font-size: 1.2em;
+    display: block;
     text-align: justify;
 }
 
