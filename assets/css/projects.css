@@ -78,3 +78,10 @@
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+.container-card a:hover {
+    transition: 0.4s;
+    background: #273297;
+    box-shadow: 10px 10px 50px #0b0b7c;
+    color: #fff;
+}
